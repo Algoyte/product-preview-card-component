@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Mons-med";
+    src: url("./assets/fonts/./Montserrat-Medium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mons-bold";
+    src: url("./assets/fonts/./Montserrat-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "fra";
+    src: url("./assets/fonts/./Fraunces_72pt-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-box {
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+ 
+img {
+    height: 450px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.perfume {
+    font-family: mons-med;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 13px;
+    color: hsl(228, 12%, 48%);
+}
+
+.gab {
+    font-family: fra;
+    margin-left: 30px;
+    margin-top: 20px ;
+    font-size: 30px;
+    width: 200px;
+    color: hsl(212, 21%, 14%); 
+    line-height: 100%;
+}
+
+.parag {
+    font-family: mons-med;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 240px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.6;    
+}
+
+.pricing {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.price {
+    font-family: fra;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.discount {
+    font-family: mons-med;
+    color: hsl(228, 12%, 48%);
+    font-size: 12px;
+    text-decoration-line: line-through;
+    margin-left: 20px;
+}
+
+.button {
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 8px;
+    height: 50px;
+    width: 240px;
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    color: white;
+    font-family: mons-bold;
+    font-size: 12px;
+}
+  
+  .button:hover {
+    background-color: hsl(212, 21%, 14%);
+    color: white;
+    cursor: pointer;
+}
+
+.cart {
+    height: 20px;
+    margin-right: 10px;
+}
